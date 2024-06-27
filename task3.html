@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Webpage Example</title>
+<style>
+  body {
+    background-image: url('d.jpeg');
+    background-size: cover; 
+  }
+</style>
+<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive Webpage Example</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="dynamicContent">
+      <h2>Dynamic Content</h2>
+      <div id="content">
+        <p>Initial content loaded...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Company</p>
+  </footer>
+
+  <script src="script3.js"></script>
+</body>
+</html>
